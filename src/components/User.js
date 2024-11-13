@@ -4,7 +4,7 @@ export default function User() {
 
     function fun1() {
         console.log(document.getElementsByName("t1")[0].value);
-        axios.get("https://jfsd-spring-hosting-production-b726.up.railway.app/user", {params:{
+        axios.get("https://jfsd-spring-hosting-production-a67e.up.railway.app/user", {params:{
             email: document.getElementsByName("t1")[0].value
         }}).then((res)=>{
             console.log(res.data)
